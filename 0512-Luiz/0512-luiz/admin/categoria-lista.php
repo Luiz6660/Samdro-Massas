@@ -27,6 +27,7 @@ include_once '_menu.php';
                 ?>
                 <tr>
                     <td><?php echo $dado['CategoriaID']?></td>
+                    <td><a href="categoria-salvar.php?acao==salvar&id<?php echo $dado['CategoriaID'];?>"><?php echo $dado['Nome'];?></a></td>
                     <td><a href="categoria-salvar.php?acao==salvar&id<?php echo $dado['CategoriaID'];?>">Excluir</a></td>
                 </tr>
                 <?php
